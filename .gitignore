@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# =========================
+# DATASETS - DO NOT UPLOAD
+# =========================
+data/**/*.csv
+data/**/*.pkl
+
+# =========================
+# MODEL / GENERATED FILES
+# =========================
+models/*.pt
+models/*.pth
+models/*.pkl
+models/*.h5
+models/*.keras
+
+# =========================
+# OUTPUTS / RESULTS
+# =========================
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.jpeg
+outputs/**/*.json
+outputs/**/*.csv
+outputs/**/*.txt
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep empty folders
+!*/.gitkeep
